@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
 
+        
         Toyota toyo = new Toyota("PAS201"); //200
         toyo.encenderMotor();
         toyo.avanzar();
@@ -19,6 +20,8 @@ public class Main {
         nis.avanzar();
 
         System.out.println("Velocidad Máxima: " + nis.getdVelocidadMaxima());
+
+        //Agregado por Jose David Cordova Correa
 
 /*
         Auto auto1 = new Auto();
